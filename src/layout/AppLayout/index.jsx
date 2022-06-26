@@ -1,20 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Sidebar from '../../components/SideBar';
 import PropTypes from 'prop-types';
-// import Sidebar from '../Sidebar';
+import './AppLayout.scss';
+
+
 
 // The actual layout file
 function AppLayout({ children }) {
   return (
     <main>
-      <div>
-        <Link to="/dashboard">Home</Link>
-        {/* <Sidebar userData={userData} /> */}
-      </div>
-      <div className="min-w-fit ml-40 px-4">
-        {children}
-      </div>
-
+        <div className="app-container d-flex">
+			<Sidebar />
+            <div className="content-container">
+                {children}
+            </div>
+        </div>
     </main>
   );
 }
