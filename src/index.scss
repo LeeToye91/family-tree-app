@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f0f0f0;
-    color: #2b2b2b;
-    font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  color: #2b2b2b;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
-    text-decoration: none !important;
-    color: unset !important;
+  text-decoration: none !important;
+  color: unset !important;
 }
 
 // Colours 
@@ -24,35 +24,45 @@ $color-secondary : #2A9D8F;
 $color-tertiary : #E9C46A;
 $color-quat : #F4A261;
 $color-quin : #E76F51;
+
 // Text colours
 .color-primary {
   color: $color-primary
 }
+
 .color-secondary {
   color: $color-secondary
 }
+
 .color-tertiary {
   color: $color-tertiary
 }
+
 .color-quat {
   color: $color-quat
 }
+
 .color-quin {
   color: $color-quin
 }
+
 // Background colours
 .background-primary {
   background-color: $color-primary
 }
+
 .background-secondary {
   background-color: $color-secondary
 }
+
 .background-tertiary {
   background-color: $color-tertiary
 }
+
 .background-quat {
   background-color: $color-quat
 }
+
 .background-quin {
   background-color: $color-quin
 }
